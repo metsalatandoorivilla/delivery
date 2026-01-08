@@ -456,16 +456,17 @@
     const currentUser = userData.name;
 
     // Firebase setup
-    const firebaseConfig = {
-      apiKey: "AIzaSyCirYQ_46JiSkMIwCNs1nSi89dvB1MUg_A",
-      authDomain: "deliverylog12.firebaseapp.com",
-      databaseURL: "https://deliverylog12-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "deliverylog12",
-      storageBucket: "deliverylog12.firebasestorage.app",
-      messagingSenderId: "19081371357",
-      appId: "1:19081371357:web:b9b59e732a4d90d4d44534",
-      measurementId: "G-FSZXXZQSL0"
-    };
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBTSu_zCgqmNR4nVU8xGxAp9sLTeb_ZiNE",
+  authDomain: "newdelivery-aa6b3.firebaseapp.com",
+  databaseURL: "https://newdelivery-aa6b3-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "newdelivery-aa6b3",
+  storageBucket: "newdelivery-aa6b3.firebasestorage.app",
+  messagingSenderId: "1055951260116",
+  appId: "1:1055951260116:web:22868a9f4162907d6e2e41",
+  measurementId: "G-XYRVTT19V2"
+};
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
